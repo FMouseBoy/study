@@ -1,0 +1,8 @@
+<view wx:if="{{showType === 'ljms'}}" class="time-ms">{{h}}:{{m}}:{{s}}.{{ms}}</view>
+<view class="open-success-time" wx:if="{{showType === 'openSuccess'}}">
+  <view class="open-success-number">{{h}}</view>
+  <view class="between-dot">:</view>
+  <view class="open-success-number">{{m}}</view>
+  <view class="between-dot">:</view>
+  <view class="open-success-number">{{s}}</view>
+</view>

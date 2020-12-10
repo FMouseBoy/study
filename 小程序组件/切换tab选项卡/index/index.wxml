@@ -1,0 +1,20 @@
+<view class="content">
+  <view class="top-bg"></view>
+  <!-- tab切换区 -->
+  <view class="tab">
+    <view class="nav">
+      <block wx:for="{{skuProducts}}">
+        <view bindtap="changeTab" data-index="{{index}}" class="nav-item {{index === defaultActive ? 'nav-item-active': ''}}">
+          <view>保险产品名</view>
+          <view class="dividing-line {{index === defaultActive || index === 3 ? 'hide': ''}}"></view>
+        </view>
+      </block>
+      
+    </view>
+    <view class="tab-content">
+      <block wx:for="{{skuProducts}}">
+        <view class="content-item {{index === defaultActive ? '':'hide'}}">{{index}}</view>
+      </block>
+    </view>
+  </view>
+</view>
