@@ -36,7 +36,7 @@
 }
 
 .navbar_home .iconfont:nth-child(2) {
-  border-left: 1px solid #333;
+  border-left: 1px solid #3333332b;
   /* opacity: 0.7; */
 }
 
@@ -48,7 +48,7 @@
   align-items: center;
   z-index: -1;
 }
-.navbar_title view {
+.navbar_title .navbar_title_style {
   width: 40%;
   word-break: break-all;
   overflow: hidden;

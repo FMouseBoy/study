@@ -2,12 +2,12 @@
 <view class='topbar' style="background:{{header.headerbg}}">
   <view class='status' style="height:{{statusHeight}}px"></view>
   <view class='navbar' style="height:{{navHeight}}px">
-      <view class='navbar_home' wx:if="{{header.homeCapsule}}" style="background:{{header.capsulebg}};border:{{header.capsuleborder}}">
+      <view class='navbar_home' wx:if="{{header.homeCapsule}}" style="background:{{header.capsulebg}};border:{{header.capsuleborder}};top:{{leftItemTop}}px">
         <text class="iconfont iconback" wx:if="{{header.backCapsule}}" bindtap='backClick'></text>
         <text class="iconfont iconhome" bindtap='homeClick'></text>
       </view>
       <view class='navbar_title' style="height:{{navHeight}}px">
-        <view style="color:{{header.fontColor}};font-size:{{header.fontSize}}">{{header.title}}</view>
+        <view class="navbar_title_style" style="color:{{header.fontColor}};font-size:{{header.fontSize}}">{{header.title}}</view>
       </view>
   </view>
 </view>
