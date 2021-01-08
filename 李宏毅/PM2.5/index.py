@@ -43,7 +43,7 @@ def train(x_train, y_train, epoch):
   
   for i in range(epoch):
     b_g = 0  # b的偏微分
-    w_g = 0  # w的偏微分
+    w_g = 0 # w的偏微分
     for j in range(3200):
       b_g += (y_train[j] - weights.dot(x_train[j,9, :]) - bias )*(-1)
       w_g += (y_train[j] - weights.dot(x_train[j, 9, :])- bias ) * (-x_train[j, 9, :])
@@ -68,7 +68,7 @@ def train(x_train, y_train, epoch):
       loss = 0
       for j in range(3200):
         loss += (y_train[j] - weights.dot(x_train[j, 9, :]) - bias)**2 
-      # print('损失函数值为:',loss/3200)
+      print('损失函数值为:',loss/3200)
   return weights, bias
 
 
