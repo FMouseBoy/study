@@ -1,0 +1,13 @@
+<!--index.wxml-->
+
+<view class="wrapper">
+  <button bind:tap="chooseImage">请选择图片</button>
+  <image class="avatar" wx:if="{{avatar}}" mode="widthFix" src="{{avatar}}" />
+
+  <view class="project-info">
+    <view class="active-name"  wx:if="{{avatar}}">项目名称：{{imageGroups[classIndex].label}}</view>
+    <view class="active-name"  wx:if="{{avatar}}">项目地址：{{imageGroups[classIndex].url}}</view>
+    <view class="active-name"  wx:if="{{avatar}}">研发人员：{{imageGroups[classIndex].qd_name}}</view>
+    <view class="active-name"  wx:if="{{avatar}}">研发erp：{{imageGroups[classIndex].qd_erp}}</view>
+  </view>
+</view>

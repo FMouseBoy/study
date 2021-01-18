@@ -1,0 +1,22 @@
+{
+  "name": "imageclassifity",
+  "version": "1.0.0",
+  "description": "基于TensorFlow.js的图像识别小程序，快速定位活动URL",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "FangHao",
+  "license": "ISC",
+  "dependencies": {
+    "@tensorflow-models/body-pix": "^2.0.5",
+    "@tensorflow-models/coco-ssd": "^2.1.0",
+    "@tensorflow-models/posenet": "^2.2.1",
+    "@tensorflow/tfjs-backend-cpu": "^2.7.0",
+    "@tensorflow/tfjs-backend-webgl": "^2.7.0",
+    "@tensorflow/tfjs-converter": "^2.7.0",
+    "@tensorflow/tfjs-core": "^2.7.0",
+    "@tensorflow/tfjs-layers": "^2.8.4",
+    "fetch-wechat": "0.0.3"
+  }
+}

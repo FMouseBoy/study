@@ -1,0 +1,25 @@
+/**index.wxss**/
+.wrapper {
+  padding: 24px;
+  text-align: center;
+}
+
+.avatar {
+  width: 600rpx;
+  height: 600rpx;
+  margin-top: 24px;
+}
+.project-info {
+  width: 100%;
+  margin-top: 60rpx;
+  font-weight: 700;
+  font-size: 28rpx;
+  text-align: left;
+}
+.active-name {
+  margin-top: 30rpx;
+}
+.canvas-view {
+  position: fixed;
+  left: 100%;
+}
