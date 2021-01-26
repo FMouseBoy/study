@@ -1,0 +1,17 @@
+{
+  "presets": ["env", "stage-2"],
+
+  // 暂时不用
+  // 如果未来某一天真的用到了polify
+  "plugins": [
+    // [
+    //   "transform-runtime",
+    //   {
+    //     "helpers": false,
+    //     "polyfill": true,
+    //     "regenerator": true,
+    //     "moduleName": "babel-runtime"
+    //   }
+    // ]
+  ]
+}
